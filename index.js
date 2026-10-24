@@ -8,7 +8,7 @@ import { exec } from 'node:child_process'
 const app = express()
 
 app.use(logger([
-  "console",
+  // "console",
   // "file"
 ], './log.txt'))
 
